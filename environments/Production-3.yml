@@ -1,0 +1,17 @@
+fileVersion: 1
+id: "3"
+mappingDefinitions:
+  PROD:
+    database: PC_COALESCE_DB
+    schema: PUBLIC
+  SRC:
+    database: PC_COALESCE_DB
+    schema: PUBLIC
+  TEST:
+    database: PC_COALESCE_DB
+    schema: PUBLIC
+  WORK:
+    database: PC_COALESCE_DB
+    schema: PUBLIC
+name: Production
+type: Environment
