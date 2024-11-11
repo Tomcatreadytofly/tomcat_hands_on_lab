@@ -1,0 +1,176 @@
+fileVersion: 1
+id: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+name: STG_CALL_TRANSCRIPTS_ALL
+operation:
+  config:
+    insertStrategy: UNION ALL
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: true
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 509e2e0f-98ab-4a16-b052-a7e26d85cdbb
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: DATE
+        description: ""
+        name: DATE_CREATED
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5b172423-78e9-4be3-aa00-5238058f72e0
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 8a52a184-73fa-448b-a66c-ca93ddc696e2
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2bdce8d-1b27-40ea-bf99-59504257fee9
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LANGUAGE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fabeb885-9b9a-44ee-b97f-b7f482ac8b20
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 3f996c48-a1ba-4bc0-8ebb-046052c060a7
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e1a3679-fb20-4bec-8fe3-f3e4eedc06cc
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: COUNTRY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 29092bf0-4ada-45a7-a9de-7dda86477481
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 85fdc16e-0750-43af-909b-02e7f98d50e8
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2bd68f75-66cf-462a-87fb-6220d9ef1d3a
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRODUCT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 97b9efa5-b96b-40fb-8aeb-70dbbbce5c03
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: e070898d-b80c-453c-969f-ae8b6373be75
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9da3df63-334d-4e16-906f-83746c401f24
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: CATEGORY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dafdc3d7-5162-4187-8710-a758f7d29cb0
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 90872d2a-6b87-4b2b-a2eb-39140d80be4a
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d5276f6-1314-4436-af85-471f47d37532
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: DAMAGE_TYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d1c14ed0-ea34-4773-b727-fc08bd52adf6
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 912b19c8-0223-4e01-ba6c-cb1f7dd459ee
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0e337042-61b3-437d-ad10-337cac96d71b
+          stepCounter: 7697ec8b-568a-4dcb-9d29-9eb9b63b9295
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: TRANSCRIPT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d6317ef6-76be-4e2c-af68-5cdd7c6f3a23
+                stepCounter: 0f55c421-c3b6-47d2-9c14-d7634b65e5e7
+            transform: ""
+          - columnReferences:
+              - columnCounter: 2d95888e-9532-4352-af76-35cd0c985a82
+                stepCounter: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: LLM__CALL_TRANSCRIPTS_GERMAN
+        join:
+          joinCondition: FROM {{ ref('WORK', 'LLM__CALL_TRANSCRIPTS_GERMAN') }} "LLM__CALL_TRANSCRIPTS_GERMAN"
+        name: STG_CALL_TRANSCRIPTS_ALL
+        noLinkRefs: []
+      - aliases:
+          LLM__CALL_TRANSCRIPTS_FRENCH: 1a2604a0-ca3b-4fa5-8e28-c2964ed19714
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: LLM__CALL_TRANSCRIPTS_FRENCH
+        join:
+          joinCondition: FROM {{ ref('WORK', 'LLM__CALL_TRANSCRIPTS_FRENCH') }} "LLM__CALL_TRANSCRIPTS_FRENCH"
+        name: NEW_SOURCE
+        noLinkRefs: []
+  name: STG_CALL_TRANSCRIPTS_ALL
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
